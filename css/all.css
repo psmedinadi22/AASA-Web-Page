@@ -150,8 +150,7 @@ a:hover{text-decoration:underline;}
 .wrapper-holder {
 	width: 100%;
 	display: table-row;
-	background: #D41515;
-
+	background: #CB0100;
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -224,6 +223,7 @@ h2.slogan{
 	color: #aeecc2;
 	padding: 34px 0 50px 0;
 	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
+
 }
 /*main
  */
@@ -272,6 +272,7 @@ h2.slogan{
 .box_timeline ul li:first-child{margin: 0;}
 	.box_timeline ul li .date {
 		background: url(../images/energia-removebg-preview.png) no-repeat 50% 0;
+		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
 		background-size: 37%;
 		height: 86px;
 		width: 170px;
@@ -281,6 +282,7 @@ h2.slogan{
 
 	.box_timeline ul li .date2 {
 		background: url(../images/petroleo-removebg-preview.png) no-repeat 50% 0;
+		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
 		background-size: 42%;
 		height: 86px;
 		width: 170px;
@@ -290,6 +292,7 @@ h2.slogan{
 
 	.box_timeline ul li .date3 {
 		background: url(../images/agua-removebg-preview.png) no-repeat 50% 0;
+		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
 		background-size: 42%;
 		height: 86px;
 		width: 170px;
@@ -299,6 +302,7 @@ h2.slogan{
 
 	.box_timeline ul li .date4 {
 		background: url(../images/infraestructura-removebg-preview.png) no-repeat 50% 0;
+		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
 		background-size: 57%;
 		height: 86px;
 		width: 170px;
@@ -308,6 +312,7 @@ h2.slogan{
 
 	.box_timeline ul li .date5 {
 		background: url(../images/industria-removebg-preview.png) no-repeat 50% 0;
+		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
 		background-size: 42%;
 		height: 86px;
 		width: 170px;
@@ -317,6 +322,7 @@ h2.slogan{
 
 	.box_timeline ul li .date6 {
 		background: url(../images/tableros-removebg-preview.png) no-repeat 50% 0;
+		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
 		background-size: 47%;
 		height: 86px;
 		width: 170px;
