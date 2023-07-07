@@ -7,7 +7,7 @@
 	.box_timeline{padding: 0 60px 0 0;}
 	.box_timeline ul li{margin: 0 0 0 25px;}
 	.skills_holder .column{width: 450px;}
-	.plagin_list li{margin: 0 0 0 2%;display: inline-block;float: none;width: 10%;height: 110px;}
+	.plagin_list li{margin: 0 0 0 2%;display: inline-block;float: none;width: 10%;height: 10px;}
 	.item-list{margin: 0;}
 /* 	.item-list li{ width: 30%; margin-left: 0;text-align: center;} */
 
@@ -23,7 +23,7 @@
 @media only screen and (max-width : 1100px) {
 	.plagin_list li{ }
 }
-@media only screen and (max-width : 1050px) {
+@media only screen and (max-width : 2050px) {
 	.box_timeline_holder{padding: 0 0 0 20px;}
 	.box_timeline{padding: 0 20px 0 0;}
 	.box_timeline ul li{margin: 0 0 0 5px;}

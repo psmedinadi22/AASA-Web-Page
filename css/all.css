@@ -267,24 +267,64 @@ h2.slogan{
 	margin: 0 0 0 30px;
 	background: url(../images/bg_ul.gif) repeat-x 0 76px;
 }
+
+/*Imagen*/
 .box_timeline ul li:first-child{margin: 0;}
-.box_timeline ul li .date{
-	background: url(../images/bg_timeline_c.png) no-repeat 50% 0;
-	height: 86px;
-	width: 170px;
-	margin: 0 auto 12px;
-	overflow: hidden;
-}
-.box_timeline ul li .date span{
-	font-family: 'novecentosanswide';
-	font-weight:bold;
-	color: #fff;
-	font-size: 14px;
-	line-height: 16px;
-	display: block;
-	text-align: center;
-	padding: 15px 0 0 0;
-}
+	.box_timeline ul li .date {
+		background: url(../images/energia-removebg-preview.png) no-repeat 50% 0;
+		background-size: 37%;
+		height: 86px;
+		width: 170px;
+		margin: 0 auto 12px;
+		overflow: hidden;
+	}
+
+	.box_timeline ul li .date2 {
+		background: url(../images/petroleo-removebg-preview.png) no-repeat 50% 0;
+		background-size: 42%;
+		height: 86px;
+		width: 170px;
+		margin: 0 auto 12px;
+		overflow: hidden;
+	}
+
+	.box_timeline ul li .date3 {
+		background: url(../images/agua-removebg-preview.png) no-repeat 50% 0;
+		background-size: 42%;
+		height: 86px;
+		width: 170px;
+		margin: 0 auto 12px;
+		overflow: hidden;
+	}
+
+	.box_timeline ul li .date4 {
+		background: url(../images/infraestructura-removebg-preview.png) no-repeat 50% 0;
+		background-size: 57%;
+		height: 86px;
+		width: 170px;
+		margin: 0 auto 12px;
+		overflow: hidden;
+	}
+
+	.box_timeline ul li .date5 {
+		background: url(../images/industria-removebg-preview.png) no-repeat 50% 0;
+		background-size: 42%;
+		height: 86px;
+		width: 170px;
+		margin: 0 auto 12px;
+		overflow: hidden;
+	}
+
+	.box_timeline ul li .date6 {
+		background: url(../images/tableros-removebg-preview.png) no-repeat 50% 0;
+		background-size: 47%;
+		height: 86px;
+		width: 170px;
+		margin: 0 auto 12px;
+		overflow: hidden;
+	}
+
+     /*Titulo*/
 	.box_timeline h3 {
 		font-family: 'novecento_sans_widemedium';
 		color: #BF1621;
@@ -294,6 +334,7 @@ h2.slogan{
 		text-align: center;
 		margin: 0 0 10px;
 	}
+	/*Texto*/
 .box_timeline p{
 	font-family: Arial, Helvetica, sans-serif;
 	color: #a4a7ac;
@@ -303,6 +344,8 @@ h2.slogan{
 	text-align: center;
 	margin: 0 0 10px;
 }
+
+
 /*skills*/
 #main .skills_holder h2{text-align: left;margin: 0 0 40px;}
 .skills_holder{
