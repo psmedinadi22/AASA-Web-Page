@@ -226,7 +226,7 @@ a:hover{text-decoration:underline;}
 		}
 
 			#nav ul a:hover,
-			#nav ul a.active {
+			#nav ul a.active { /*Indice del menu seleccionado ROJO*/
 				color: #D41515 ;
 				border-bottom: 4px solid #D41515;
 				text-decoration: none;
@@ -602,16 +602,48 @@ a:hover{text-decoration:underline;}
 .box_contact span{
 	color: #fff;
 	font-family: 'novecento_sans_widebook';
-	font-size: 30px;
-	line-height: 32px;
-	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 22px;
+	
 	display: block;
-	margin: 0 0 55px;
+	margin: 0 0 27px;
 	padding: 5px 0 18px 80px;
 }
-.box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
-.box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
-.box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
+	.box_contact span.email {
+		background: url(../images/email-removebg-preview.png) no-repeat;
+		background-size: 50px; /* Ajusta el tamaño deseado de la imagen */
+	}
+.box_contact span.phone {
+		background: url(../images/telefono-removebg-preview.png) no-repeat;
+		background-size: 50px; /* Ajusta el tamaño deseado de la imagen */
+	
+}
+
+	.box_contact span.skype {
+		background: url(../images/ubicacion-removebg-preview.png) no-repeat;
+		background-size: 45px; /* Ajusta el tamaño deseado de la imagen */
+	}
+	.box_contact span.whatsapp {
+		background: url(../images/whatsapp.png) no-repeat;
+		background-size: 50px; /* Ajusta el tamaño deseado de la imagen*/
+	}
+
+.images_holder {
+	display: inline-block;
+	width: 300px; /* Ajusta el tamaño deseado del círculo */
+
+	border-radius: 50%; /* Aplica una forma circular */
+	overflow: hidden; /* Recorta el contenido que se sale del círculo */
+}
+
+	.images_holder img {
+		display: block;
+		width: 100%;
+		height: auto;
+		object-fit: cover; /* Ajusta la imagen para que cubra todo el espacio del círculo */
+	}
+
+
 /*footer
  */
 #footer {
@@ -659,7 +691,11 @@ a:hover{text-decoration:underline;}
 .footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
 .footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
 .footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
-.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;}
+.footer-content .social li.pinterest a {
+		background: url(../images/youtube-removebg-preview.png) no-repeat 50% 50%;
+		background-size: 65px; /* Ajusta el tamaño deseado de la imagen */
+}
+
 .footer-content p{
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
@@ -667,7 +703,7 @@ a:hover{text-decoration:underline;}
 	color: #929c95;
 }
 /* begin add	 */
-.popup_portfolio{
+		.popup_portfolio{
 	max-width: 1132px;
 }
 .popup_portfolio h3{
@@ -801,6 +837,10 @@ a:hover{text-decoration:underline;}
 	.box_contact span.skype{
 		background-image: url(../images/icon_skype@x2.png);
 		background-size:54px 51px;
+	}
+	.box_contact span.whatsapp {
+		background-image: url(../images/whatsapp.png);
+		background-size: 54px 51px;
 	}
 /* begin add	 */
 	.fancybox-close {
