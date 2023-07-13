@@ -681,7 +681,10 @@ a:hover{text-decoration:underline;}
 	display: table-cell;	
 	position: relative;
 }
-.footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
+	.footer-content .social li.email a {
+		background: url(../images/web.png) no-repeat 50% 50%;
+		background-size: 55px; /* Ajusta el tamaño deseado de la imagen */
+	}
 .footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
 	.footer-content .social li.google a {
 		background: url(../images/whatsapp_logo.png) no-repeat 50% 50%;
