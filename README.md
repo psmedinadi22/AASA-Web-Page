@@ -51,7 +51,7 @@ El proceso de subir las imágenes es exitoso, ahora es momento de agregar la sec
 						<div class="image">
 							<img src="images/Fotos web/PROYECTO/NOMBRE DE LA IMAGEN" alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_8">
+								<a class="fancybox" rel="gallery1" href="#portfolio_NUMERO">
 									<div class="item-content">
 										<h4>Nombre del proyecto</h4>
 										<p>Haga aqui la descripción corta de su proyecto</p>
@@ -63,7 +63,8 @@ El proceso de subir las imágenes es exitoso, ahora es momento de agregar la sec
 					<!--Aqui termina el NUMERO proyecto-->
 ```
 
-Ahora usted debe editar 3 ítems, los cuales son:
+Ahora usted debe editar 4 ítems, los cuales son:
+- El ID del proyecto
 - NUMERO del proyecto en donde comienza y en donde finaliza
 - Agregar la ruta de la imagen que desea que quede en el círculo, esto incluye el nombre de la carpeta donde se aloja (carpeta que creo anteriormente) y el nombre de la imagen
 -  Escribir el título del proyecto y la descripción corta del proyecto
@@ -76,7 +77,7 @@ Ahora usted debe editar 3 ítems, los cuales son:
 5. Copie y pegue el siguiente código en esta sección 
 ```
 <!--Aqui comienza el Collage de imagenes proyecto NUMERO-->
-		<div id="portfolio_8" class="popup_portfolio">
+		<div id="portfolio_NUMERO" class="popup_portfolio">
 			<div class="collage">
 
 				<div class="image-container">
@@ -90,7 +91,7 @@ Ahora usted debe editar 3 ítems, los cuales son:
 			<p>DESCRIPCIÓN DETALLADA DEL PROYECTO</p>
 		</div>
 ```
-6. Del código copiado edite el título del proyecto, la descripción detallada del proyecto y la ruta de las imágenes que desea agregar, en el código anterior solo hay una imagen agregada, si desea más imágenes en su collage debe agregar el siguiente código cuantas veces quiera encima del comentario "Agrega más divs con clase "image-container" para más imágenes"
+6. Del código copiado edite el ID del proyectro, el título del proyecto, la descripción detallada del proyecto y la ruta de las imágenes que desea agregar, en el código anterior solo hay una imagen agregada, si desea más imágenes en su collage debe agregar el siguiente código cuantas veces quiera encima del comentario "Agrega más divs con clase "image-container" para más imágenes"
    
 ```
                                 <div class="image-container">
