@@ -287,9 +287,8 @@ a:hover{text-decoration:underline;}
 /*Imagen*/
 .box_timeline ul li:first-child{margin: 0;}
 	.box_timeline ul li .date {
-		background: url(../images/energia-removebg-preview.png) no-repeat 50% 0;
-		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
-		background-size: 37%;
+		background: url(../images/scada.png) no-repeat 50% 0;
+		background-size: 30%;
 		height: 86px;
 		width: 170px;
 		margin: 0 auto 12px;
@@ -297,9 +296,9 @@ a:hover{text-decoration:underline;}
 	}
 
 	.box_timeline ul li .date2 {
-		background: url(../images/petroleo-removebg-preview.png) no-repeat 50% 0;
-		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
-		background-size: 42%;
+		background: url(../images/subestacion.png) no-repeat 50% 0;
+		
+		background-size: 35%;
 		height: 86px;
 		width: 170px;
 		margin: 0 auto 12px;
@@ -307,9 +306,9 @@ a:hover{text-decoration:underline;}
 	}
 
 	.box_timeline ul li .date3 {
-		background: url(../images/agua-removebg-preview.png) no-repeat 50% 0;
-		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
-		background-size: 42%;
+		background: url(../images/medidor.png) no-repeat 50% 0;
+		
+		background-size: 26%;
 		height: 86px;
 		width: 170px;
 		margin: 0 auto 12px;
@@ -317,9 +316,9 @@ a:hover{text-decoration:underline;}
 	}
 
 	.box_timeline ul li .date4 {
-		background: url(../images/infraestructura-removebg-preview.png) no-repeat 50% 0;
-		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
-		background-size: 57%;
+		background: url(../images/electrificacion.png) no-repeat 50% 0;
+		
+		background-size: 31%;
 		height: 86px;
 		width: 170px;
 		margin: 0 auto 12px;
@@ -327,9 +326,9 @@ a:hover{text-decoration:underline;}
 	}
 
 	.box_timeline ul li .date5 {
-		background: url(../images/industria-removebg-preview.png) no-repeat 50% 0;
-		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
-		background-size: 42%;
+		background: url(../images/avanzado.png) no-repeat 50% 0;
+		
+		background-size: 34%;
 		height: 86px;
 		width: 170px;
 		margin: 0 auto 12px;
@@ -337,9 +336,8 @@ a:hover{text-decoration:underline;}
 	}
 
 	.box_timeline ul li .date6 {
-		background: url(../images/tableros-removebg-preview.png) no-repeat 50% 0;
-		filter: brightness(0.8); /* Valor de brillo inferior a 1 para opacar la imagen */
-		background-size: 47%;
+		background: url(../images/proteccion.png) no-repeat 50% 0;
+		background-size: 34%;
 		height: 86px;
 		width: 170px;
 		margin: 0 auto 12px;
@@ -349,7 +347,7 @@ a:hover{text-decoration:underline;}
      /*Titulo*/
 	.box_timeline h3 {
 		font-family: 'novecento_sans_widemedium';
-		color: #BF1621;
+		color: #28292B;
 		font-size: 14px;
 		line-height: 16px;
 		display: block;
