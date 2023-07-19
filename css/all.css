@@ -152,13 +152,16 @@ a:hover{text-decoration:underline;}
 	display: table-row;
 	background: #fff;
 }
-	.wrapper-holder.grey {
+.wrapper-holder.grey {
 		background: #1B1B1B; /*Fondo soluciones gris*/
-	}
+}
+.wrapper-holder.white {
+		background: #fff; /*Fondo soluciones gris*/
+}
 #header {
 	max-width: 2000px;
 	margin: 0px;
-	padding: 25px 0 15px;
+	padding: 15px 0 15px;
 	position: relative;
 }
 .menu_trigger{
@@ -254,7 +257,7 @@ a:hover{text-decoration:underline;}
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: #fff;
+	color: #28292B;
 	margin: 0 0 81px;
 }
 .box_timeline_holder{
@@ -640,71 +643,97 @@ a:hover{text-decoration:underline;}
 
 /*footer
  */
+
 #footer {
-    width:100%;
-    overflow:hidden;
-    display:table-footer-group;
-    background:#fff;
+	width: 100%;
+	overflow: hidden;
+	display: table-footer-group;
 }
+
 .footer-content {
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 45px 0 20px;
 	color: #a5a5a5;
 }
-.footer-content .social{
-	overflow:hidden;
+
+/* Pie de página con fondo gris */
+.footer-grey {
+	background: #1B1B1B;
+}
+
+/* Pie de página con fondo blanco */
+.footer-white {
+	background: #FFFFFF;
+}
+
+.footer-content .social {
+	overflow: hidden;
 	margin: 0 auto 45px;
 	width: 670px;
 }
-.footer-content .social li{
-	float:left;
-	margin: 0 0 0 10px;
-	border-radius: 50%;
-	behavior: url(css/PIE.htc);
-	text-indent: -9999px;
-	background: #c6cfc9;
-	width: 123px;
-	height: 123px;
-	position:relative;
-	display: table;
-}
-.footer-content .social li:first-child{margin: 0;}
-	.footer-content .social li:hover {
-		background: #BF1621;
-		-webkit-transition: all 0.5s ease-in-out;
-		-moz-transition: all 0.5s ease-in-out;
-		-o-transition: all 0.5s ease-in-out;
-		transition: all 0.5s ease-in-out;
-	}
-.footer-content .social li a{
-	display: table-cell;	
-	position: relative;
-}
-	.footer-content .social li.email a {
-		background: url(../images/web.png) no-repeat 50% 50%;
-		background-size: 55px; /* Ajusta el tamaño deseado de la imagen */
-	}
-.footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
-	.footer-content .social li.google a {
-		background: url(../images/whatsapp_logo.png) no-repeat 50% 50%;
-		background-size: 65px; /* Ajusta el tamaño deseado de la imagen */
-	}
-	.footer-content .social li.twitter a {
-		background: url(../images/linkedin_logo.png) no-repeat 50% 50%;
-		background-size: 50px; /* Ajusta el tamaño deseado de la imagen */
-	}
-.footer-content .social li.pinterest a {
-		background: url(../images/youtube-removebg-preview.png) no-repeat 50% 50%;
-		background-size: 65px; /* Ajusta el tamaño deseado de la imagen */
-}
 
-.footer-content p{
-	font:18px/20px Arial, Helvetica, sans-serif;
-	display: block;
-	text-align: center;
-	color: #929c95;
-}
+.footer-content .social li {
+			float: left;
+			margin: 0 0 0 10px;
+			border-radius: 50%;
+			behavior: url(css/PIE.htc);
+			text-indent: -9999px;
+			background: #c6cfc9;
+			width: 123px;
+			height: 123px;
+			position: relative;
+			display: table;
+		}
+
+.footer-content .social li:first-child {
+				margin: 0;
+			}
+
+.footer-content .social li:hover {
+				background: #BF1621;
+				-webkit-transition: all 0.5s ease-in-out;
+				-moz-transition: all 0.5s ease-in-out;
+				-o-transition: all 0.5s ease-in-out;
+				transition: all 0.5s ease-in-out;
+			}
+
+.footer-content .social li a {
+				display: table-cell;
+				position: relative;
+			}
+
+.footer-content .social li.email a {
+				background: url(../images/web.png) no-repeat 50% 50%;
+				background-size: 55px; /* Ajusta el tamaño deseado de la imagen */
+			}
+
+.footer-content .social li.facebook a {
+				background: url(../images/icon_fb.png) no-repeat 50% 50%;
+			}
+
+			.footer-content .social li.google a {
+				background: url(../images/whatsapp_logo.png) no-repeat 50% 50%;
+				background-size: 65px; /* Ajusta el tamaño deseado de la imagen */
+			}
+
+			.footer-content .social li.twitter a {
+				background: url(../images/linkedin_logo.png) no-repeat 50% 50%;
+				background-size: 50px; /* Ajusta el tamaño deseado de la imagen */
+			}
+
+			.footer-content .social li.pinterest a {
+				background: url(../images/youtube-removebg-preview.png) no-repeat 50% 50%;
+				background-size: 65px; /* Ajusta el tamaño deseado de la imagen */
+			}
+
+	.footer-content p {
+		font: 18px/20px Arial, Helvetica, sans-serif;
+		display: block;
+		text-align: center;
+		color: #929c95;
+	}
+
 /* begin add	 */
 		.popup_portfolio{
 	max-width: 1132px;
