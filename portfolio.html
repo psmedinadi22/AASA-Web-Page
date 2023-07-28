@@ -161,6 +161,36 @@
 						</div>
 					</li>
 					<!--Aqui termina el octavo proyecto-->
+					<!--Aqui comienza el noveno proyecto -->
+					<li class="item web identity">
+						<div class="image">
+							<img src="images/Fotos web/P20002/aurora.jpeg" alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_9">
+									<div class="item-content">
+										<h4>SCADA y Control parque solar La Aurora</h4>
+										<p>10 MW de generación con celdas fotovoltaicas interconectado al SIN</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--Aqui termina el noveno proyecto-->
+					<!--Aqui comienza el decimo proyecto -->
+					<li class="item web identity">
+						<div class="image">
+							<img src="images/Fotos web/P22003/20220602_102746.jpg" alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_10">
+									<div class="item-content">
+										<h4>Renovación de estaciones de bombeo del EAAB</h4>
+										<p>Suministro, transporte y puesta en marcha (Pruebas FAT, transporte, supervisión de la instalación y pruebas SAT)</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--Aqui termina el decimo proyecto-->
 
 				</ul>
 			</section>
@@ -225,7 +255,7 @@
 			<time datetime="2014-06-20">Made: 06/20/14</time>
 			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 		</div>
-		
+
 
 		<!--Aqui comienza el Collage de imagenes proyecto 2-->
 		<div id="portfolio_2" class="popup_portfolio">
@@ -427,7 +457,105 @@
 			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 		</div>
 
-		
+
+		<!--Aqui comienza el Collage de imagenes proyecto 9-->
+		<div id="portfolio_9" class="popup_portfolio">
+			<div class="collage">
+
+				<div class="image-container">
+					<img src="images\Fotos web\P20002\aurora.jpeg" alt="Imagen 1">
+				</div>
+
+				<div class="image-container">
+					<img src="images\Fotos web\P20002\aurora2.jpeg" alt="Imagen 2">
+				</div>
+
+				<div class="image-container">
+					<img src="images\Fotos web\P20002\scada.png" alt="Imagen 3">
+				</div>
+
+				<!-- Agrega más divs con clase "image-container" para más imágenes -->
+			</div>
+			<h3>SCADA Y Control de parque solar La Aurora </h3>
+			<time datetime="2014-06-20">Made: 06/20/14</time>
+			<p>
+				AASA ha seguido fortaleciéndose como uno de los actores principales en energía renovable al incrementar la capacidad de energía solar instalada en el país. Gracias a la implementación de proyectos de sistemas SCADA y control de potencia activa y reactiva, ha logrado poner en operación el parque GY Solar Aurora en Planeta Rica, Córdoba. De esta manera, la empresa ha diversificado la matriz energética del país, contribuyendo significativamente a la construcción de la seguridad energética. <br />
+
+				Con la utilización de nuestro SCADA, las plantas fotovoltaicas adoptan un modelo innovador que combina la producción de energía con la protección del medioambiente, brindando servicios esenciales al ecosistema. Esta herramienta de supervisión en tiempo real permite el buen mantenimiento y operación de la planta de generación, al proporcionar datos provenientes de todos los dispositivos interconectados dentro del sistema, garantizando su correcto funcionamiento y generando reportes para asegurar el máximo rendimiento posible.<br />
+
+				Sin embargo, uno de los mayores desafíos es la integración de estos generadores fotovoltaicos al sistema interconectado nacional debido a que son fuentes de generación no síncronas. Por lo tanto, es esencial implementar un sistema de control que garantice el correcto funcionamiento de la central generadora y preservar la estabilidad de la red. Estas funciones son precisamente las principales tareas del Power Plant Control (PPC). El objetivo de este documento es ilustrar el principio de funcionamiento del PPC que se implementará para el proyecto La Aurora en el departamento de Córdoba, asegurando así el éxito y eficiencia de la integración de la planta fotovoltaica en el sistema energético nacional.
+			</p>
+			<h1>
+				¿Cómo funciona?
+			</h1>
+			<p>
+				Con el fin de cumplir con requerimientos técnicos de operación remota para centrales no síncronas y de esta forma, garantizar el correcto funcionamiento de la granja solar, se implementará un  power plant control (PPC) basado en un sistema de automatización para subestaciones.<br />
+				Tomando en cuenta que los inversores a utilizarse cuentan con la capacidad de realizar su control local siguiendo determinadas consignas de potencia activa o reactiva, el PPC se diseña con el objeto de enviar estas consignas teniendo como objetivo alcanzar el valor deseado de potencia  activa o reactiva en el punto de conexión a la red. <br />
+				En la red de potencia a implementarse se tienen 3 grupos de 14 inversores y un grupo de 15 inversores, cada uno de estos grupos es administrado por un SmartLogger. La función del PPC es enviar la consigna deseada al SmartLogger para que este a su vez envíe un setpoint a cada inversor. El sistema cuenta básicamente con los siguientes modos de control:<br />
+
+				1.	Control de potencia activa: El valor de salida en este modo de control es una consigna de potencia activa, los modos de operación habilitados son:<br />
+				- Consigna de potencia activa en lazo abierto<br />
+				- Consigna de potencia activa en lazo cerrado<br />
+				- Consigna de potencia activa por estatismo de frecuencia.<br />
+
+				2.	Control de potencia reactiva: El valor de salida en este modo de control es una consigna de potencia reactiva, los modos de operación habilitados son:<br />
+				- Consigna de potencia reactiva en lazo abierto.<br />
+				- Consigna de potencia reactiva en lazo cerrado.<br />
+				- Consigna de potencia reactiva por estatismo de tensión.<br />
+				- Consigna de factor de potencia.<br />
+			</p>
+			<h1>Normatividad</h1>
+			<p>Contemplando todos los requerimientos establecidos por la reglamentación colombiana, como la resolución CREG 06 de 2019,por la cual se establecen condicionasen la operación de plantas solares y eólicas en el SIN (Sistema interconectado nacional) y dictámenes de otras disposiciones, así como la CREG 098 de 2019. La cual se definen los mecanismos para incorporar sistemas de almacenamiento con el propósito de mitigar inconvenientes presentados por la falta o insuficiencia de redes de transporte de energía en el Sistema interconectado nacional.</p>
+		</div>
+
+		<!--Aqui comienza el Collage de imagenes proyecto 10-->
+		<div id="portfolio_10" class="popup_portfolio">
+			<div class="collage">
+
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220602_102746.jpg" alt="Imagen 1">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220602_102846.jpg" alt="Imagen 2">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220602_112056.jpg" alt="Imagen 4">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220602_150153.jpg" alt="Imagen 5">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220602_151913.jpg" alt="Imagen 6">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220603_114033.jpg" alt="Imagen 7">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220603_124801.jpg" alt="Imagen 8">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\20220603_124928.jpg" alt="Imagen 9">
+				</div>
+				<div class="image-container">
+					<img src="images\Fotos web\P22003\WhatsApp Image 2023-04-27 at 8.58.10 AM (1).jpeg" alt="Imagen 3">
+				</div>
+
+				<!-- Agrega más divs con clase "image-container" para más imágenes -->
+			</div>
+			<h3>Renovación de las estaciones de bombeo ciudadelas Sucre Terrero, Sucre Intermedio, Jalisco, Monte Blanco, Uval. </h3>
+			<time datetime="2014-06-20">Made: 06/20/14</time>
+			<p>
+				Automatización Avanzada S.A. realizó el suministro para cinco (5) estaciones de bombeo de aguas tratadas de la a Empresa de Acueducto y Alcantarillado de Bogotá E.S.P, que poseen equipos y componentes que han cumplido con su vida útil, generando altos costos de mantenimiento y bajos niveles de confiabilidad. AASA realizó la renovación de los sistemas actuales como son los tableros eléctricos, de control, los conjuntos bomba motor, enlaces de comunicaciones, instrumentación y los sistemas auxiliares, entre otros, para reducir la probabilidad y/o riesgo de la interrupción del servicio por falla o insuficiencia en la infraestructura de equipos o perdida de condiciones técnicas de los mismos. La renovación de las estaciones de bombeo le permitirán a la EAAB asegurar los procesos y la continuidad en el servicio, evitando el desabastecimiento y suministro de agua en las zonas cubiertas por las estaciones.<br />
+
+				Para la renovación de las estaciones de bombeo, AASA Desarrolló los diseños de detalle de los componentes Mecánico, Eléctrico, Comunicaciones, e Instrumentación y Control; de las estaciones de bombeo de Jalisco, Monteblanco, Sucre Intermedio Sucre Terrero y Uval. Para esto se realizó:<br />
+				-	Los diseños detallados de los sistemas eléctricos para la renovación de las estaciones de bombeo.<br />
+				-	Los diseños de detalle de los sistemas de automatización, control y monitoreo de las estaciones de bombeo.<br />
+				-	Los diseños detallados de los sistemas mecánicos de las estaciones de bombeo.<br />
+			</p>
+		</div>
+
+
+
 	</div>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
