@@ -30,7 +30,6 @@ Usted podrá vizualizar la página web en el siguiente link:
 
 El proceso de subir las imágenes es exitoso, ahora es momento de agregar la sección a la página web.
 
-
 ## Agregar sección de proyecto en la página web
 
 
